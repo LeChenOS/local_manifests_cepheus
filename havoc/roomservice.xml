@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project path="device/xiaomi/cepheus" name="00day0/android_device_xiaomi_cepheus-1" remote="github" revision="havoc-pie" />
+    <project path="kernel/xiaomi/sm8150" name="randomblame/android_kernel_xiaomi_sm8150" remote="github" revision="lineage-16.0" />
+    <project path="vendor/xiaomi" name="00day0/android_vendor_xiaomi_cepheus" remote="github" revision="master" />
+    <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-16.0" />
+
+    <!-- HALS / dont track this if your rom provides 8150 hals -->
+    <project path="hardware/qcom/media-caf/sm8150" name="randomblame/media-caf_sm8150" groups="qcom,pdk-qcom" revision="cepheus" />
+    <project path="hardware/qcom/display-caf/sm8150" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-16.0-caf-8150" />
+    <project path="hardware/qcom/audio-caf/sm8150" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-16.0-caf-8150" />
+</manifest>
